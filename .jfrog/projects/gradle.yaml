@@ -1,0 +1,10 @@
+version: 1
+type: gradle
+resolver:
+    repo: demowei-mvn-virtual
+    serverId: soleng
+deployer:
+    repo: demowei-mvn-virtual
+    serverId: soleng
+    ivyPattern: '[organization]/[module]/ivy-[revision].xml'
+    artifactPattern: '[organization]/[module]/[revision]/[artifact]-[revision](-[classifier]).[ext]'
